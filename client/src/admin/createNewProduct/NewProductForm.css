@@ -1,0 +1,279 @@
+.NewProductForm {
+    background-color: #E0D7CE;
+    margin: 2rem 2rem;
+
+    min-height: 80vh;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.product-displayer-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.product-displayer img {
+    width: 200px;
+    height: 300px;
+}
+
+.NewProductForm-img-cont i {
+    font-size: 5rem;
+}
+
+.select {
+    padding: .6rem 1rem !important;
+    color: #646464;
+}
+
+.newproduct-input {
+    background-color: #ffffff;
+    padding: .45rem 1rem;
+    border-radius: 8px;
+    width: 100%;
+    border: none;
+    outline: none;
+    margin-block: .3rem;
+    font-size: 1rem !important;
+}
+
+.newproduct-input::placeholder {
+    color: #646464 !important;
+    font-size: 1.1rem;
+}
+
+.newproduct-input:hover,
+.newproduct-input:active {
+    background-color: #ffffff;
+    border: none;
+}
+
+.newproduct-input:-webkit-autofill {
+    -webkit-text-fill-color: #000 !important;
+    -webkit-box-shadow: 0 0 0 1000px #ffffff inset !important;
+    background-color: #ffffff !important;
+}
+
+.newproduct-dropdown {
+    margin: 0;
+}
+
+/* CUSTOM INPUT FIELDS  */
+
+.custum-file-upload {
+    height: 160px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    gap: 20px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #cacaca;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 48px 35px -48px rgba(0, 0, 0, 0.1);
+}
+
+.custum-file-upload .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custum-file-upload .icon svg {
+    height: 50px;
+    fill: rgba(75, 85, 99, 1);
+}
+
+.custum-file-upload .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.custum-file-upload .text span {
+    font-weight: 400;
+    color: rgba(75, 85, 99, 1);
+}
+
+.custum-file-upload input {
+    display: none;
+}
+
+/* CUSTOM INPUT FIELDS - ENDED*/
+
+.newproduct-dropdown-toggle {
+    background-color: #fff;
+    color: #646464;
+    padding: .6rem 1rem;
+    font-size: 1.25rem;
+    width: 100%;
+}
+
+.dropdown-menu {
+    background-color: #fff;
+    color: #646464;
+    padding: .6rem 1rem;
+    font-size: 1.25rem;
+    width: 100%;
+    outline: none;
+    text-align: center;
+}
+
+.newproduct-dropdown-item {
+    padding-block: .4rem;
+}
+
+.newproduct-dropdown-item:hover {
+    background-color: #E0D7CE;
+    color: #000000;
+}
+
+.dropdown-menu.show {
+    padding-inline: 0;
+}
+
+.newproduct-dropdown-toggle:hover {
+    background-color: #fff;
+    color: #646464;
+}
+
+.newproduct-dropdown-toggle:focus {
+    background-color: #fff;
+    color: #646464;
+}
+
+.checkbox {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    user-select: none;
+}
+
+.checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    margin-top: 5px;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border: 2px solid #666;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.checkbox:hover .checkmark {
+    transform: translateX(-20px) translateY(-2px) rotate(10deg);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.checkbox input:checked~.checkmark {
+    background-color: #666;
+    border-color: #666;
+}
+
+.checkbox input:checked~.checkmark:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 5px;
+    height: 14px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.checkbox-text {
+    margin-left: 37px;
+    display: inline-block;
+    transition: all 0.2s ease-in-out;
+}
+
+.add-product-submit-btn {
+    padding: .6rem 1.6rem;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: #9E9388;
+    font-size: 1.1rem;
+    letter-spacing: .5px;
+    color: #fff;
+    transition: transform .3s ease;
+}
+
+.add-product-submit-btn:hover {
+    transform: translateY(-4px);
+}
+
+
+.sizes-bar {
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    flex-wrap: wrap;
+}
+
+.form-check-input,
+.form-check-label {
+    font-size: 1.25rem !important;
+    user-select: none;
+}
+
+.form-check {
+    margin-right: 1.8rem;
+    margin-top: .5rem;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .update-btns-bar {
+        flex-direction: column !important;
+        text-align: center;
+    }
+
+    .update-btns-bar span {
+        margin-top: .5rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 440px) {
+    .NewProductForm {
+        margin: 0rem 0rem;
+        padding-inline: 0rem;
+    }
+
+    .update-btns-bar {
+        flex-direction: column !important;
+        text-align: center;
+    }
+
+    .update-btns-bar span {
+        margin-top: .5rem;
+    }
+}

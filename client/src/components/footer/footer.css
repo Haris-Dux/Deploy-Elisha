@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h5 {
+    font-weight: 600;
+}
+
+.footer {
+    background-color: #E0D7CE;
+    min-height: 60vh;
+    padding-top: 6rem;
+}
+
+.footer-logo-img {
+    padding-left: 1rem;
+}
+
+.customer-service-list ul,
+.company-detail {
+    padding-left: 0;
+}
+
+.customer-service-list ul li,
+.company-detail li {
+    list-style: none;
+    font-weight: 500;
+}
+
+.social-media-buttons i {
+    margin-right: 1.4rem;
+}
+
+/* --------- DELIVERY --------- */
+
+.delivery {
+    padding-block: 2.5rem;
+}
+
+.delivery_left,
+.delivery_right {
+    width: 50%;
+    padding-inline: 2rem;
+}
+
+.delivery_headings {
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: #85684b;
+}
+
+.delivery_headings:hover {
+    text-decoration: underline;
+    text-underline-offset: 9px;
+}
+
+.delivery_text {
+    font-size: 1.rem;
+    line-height: 1.5;
+    color: #5f5f5f;
+    padding-top: .7rem;
+}
+
+/* --------- EXCHANGE --------- */
+
+.exchange_headings {
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: #85684b;
+}
+
+.exchange_headings:hover {
+    text-decoration: underline;
+    text-underline-offset: 9px;
+}
+
+
+.exchange_text {
+    font-size: 1.rem;
+    line-height: 1.5;
+    color: #464646;
+    padding-top: .7rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .footer {
+        margin: auto;
+    }
+
+    .footer-logo-img {
+        height: 17rem;
+        width: 19rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .footer {
+        text-align: center !important;
+    }
+
+    .customer-service-list ul li,
+    .company-detail li {
+        padding-block: .25rem;
+    }
+
+    .social-media-buttons {
+        justify-content: center !important;
+        align-content: center;
+    }
+
+    .footer-logo-img {
+        height: 12rem;
+        width: 15rem;
+    }
+}

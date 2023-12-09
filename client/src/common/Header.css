@@ -1,0 +1,162 @@
+.head {
+    background-color: #4E4D49;
+    color: #dbdbdb;
+    font-size: .8rem;
+    letter-spacing: 1px;
+}
+
+i {
+    color: #4E4D49;
+}
+
+.head-text {
+    margin-bottom: 0;
+}
+
+
+/* ----------- LOGO COMPONENT ----------- */
+
+.logoComponent {
+    background-color: #faf9f9;
+}
+
+.logo-img-cont-img {
+    margin-left: 19rem;
+}
+
+/* ----------- NAVBAR ----------- */
+
+.nav-link {
+    font-size: 1.05rem !important;
+    font-weight: 500;
+    transition: all 0.6s ease-in-out !important;
+}
+
+.nav-link:hover {
+    transition: all .6s ease-in-out !important;
+    text-decoration-line: underline;
+    text-decoration-color: #4E4D49;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+}
+
+.badge {
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: #eb2620;
+    color: #fff;
+    font-size: .8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.username-dropdown {
+    background-color: transparent !important;
+    color: #4E4D49 !important;
+    padding-inline: 0rem;
+    margin-left: 1.3rem !important;
+    width: max-content !important;
+}
+
+.username-dropdown-toggle {
+    font-size: 1.6rem !important;
+    background-color: transparent !important;
+    font-family: 'Italiana', sans-serif;
+    color: #4E4D49 !important;
+    padding-inline: 0rem !important;
+    font-weight: 700 !important;
+    text-transform: capitalize;
+}
+
+.dropdown-menu.show {
+    padding: 0 !important;
+    font-size: 1.1rem !important;
+}
+
+.dropdown-item {
+    font-size: 1.1rem !important;
+    padding-block: .5rem !important;
+    padding-inline: 0 !important;
+    margin-bottom: 0 !important;
+
+}
+
+.dropdown-item:hover {
+    background-color: #E0D7CE;
+    padding-block: .5rem !important;
+    padding-inline: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.fa-cart-shopping {
+    padding-inline: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------- MEDIA QUIRES -------------- */
+
+
+@media only screen and (max-width: 1400px) {
+    .nav-link {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .logo-img-cont-img {
+        margin-left: 17rem;
+    }
+
+    .nav-link {
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .logo-img-cont-img {
+        margin-left: 13rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .logo-img-cont-img {
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+    .cart-buttons .dropdown {
+        width: 0 !important;
+    }
+
+    .username-dropdown {
+        padding-right: 3rem !important;
+    }
+
+
+}
